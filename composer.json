@@ -1,0 +1,38 @@
+{
+  "name": "dravencms/console",
+  "type": "dravencms-package",
+  "description": "DravenCMS Console",
+  "keywords": [
+    "dravencms",
+    "console"
+  ],
+  "license": [
+    "LGPL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "Adam Schubert"
+    }
+  ],
+  "require": {
+    "php": ">= 7.3.0",
+    "contributte/console": "^0.9.1"
+  },
+  "require-dev": {
+    "nette/tester": "@dev"
+  },
+  "autoload": {
+    "psr-0": {
+      "Dravencms\\": "src/"
+    }
+  },
+  "extra": {
+    "dravencms": {
+      "configuration": {
+        "extensions": {
+          "console": "Contributte\\Console\\DI\\ConsoleExtension(%consoleMode%)"
+        }
+      }
+    }
+  }
+}
