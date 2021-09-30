@@ -1,7 +1,7 @@
 {
   "name": "dravencms/console",
   "type": "dravencms-package",
-  "description": "DravenCMS Console",
+  "description": "DravenCMS Console metapackage",
   "keywords": [
     "dravencms",
     "console"
