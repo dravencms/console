@@ -28,9 +28,7 @@
   },
   "extra": {
     "dravencms": {
-      "configuration": {
-        "extensions": "dravencms.config.neon"
-      }
+      "configuration": "dravencms.config.neon"
     }
   }
 }
