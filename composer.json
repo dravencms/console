@@ -29,9 +29,7 @@
   "extra": {
     "dravencms": {
       "configuration": {
-        "extensions": {
-          "console": "Contributte\\Console\\DI\\ConsoleExtension(%consoleMode%)"
-        }
+        "extensions": "dravencms.config.neon"
       }
     }
   }
